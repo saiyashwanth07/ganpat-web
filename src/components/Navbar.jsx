@@ -22,6 +22,7 @@ const Navbar = () => {
     <nav className={`navbar ${isScrolled ? 'scrolled glass-panel' : ''}`}>
       <div className="container navbar-container">
         <Link to="/" className="navbar-logo" onClick={closeMenu}>
+          <img src="/guni-logo-red.png" alt="Ganpat Logo" style={{ height: '45px', width: '45px', borderRadius: '4px', marginRight: '10px', objectFit: 'contain' }} />
           <span className="logo-text">Ganpat University</span>
         </Link>
 
